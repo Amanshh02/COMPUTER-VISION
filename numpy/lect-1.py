@@ -7,23 +7,24 @@ import numpy as np
 # 1d
 a = np.array([1,2,3], dtype='int16')
 print(a)
+
 # 2d
 b= np.array([[1,2,3,4,5], [6,7,8,9,0]])
 print(b)
 
 # get dimension
-print(a.ndim)
+print("Dimension is (rows) : ", b.ndim)
 
 #shape
-print(b.shape)
+print("Shape is (matrix shape) : ", b.shape) #shape of matrix
 
 # get type
-print(a.dtype)
+print("Data type is : ", a.dtype)
 
 # get size
-print(a.itemsize)
+print(" Size of one item is : ", a.itemsize)
 
 # get total size
-print(a.size)
+print(b.size)
 print(a.nbytes)
 

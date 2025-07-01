@@ -15,3 +15,4 @@ print(np.matmul(a,b))
 #determinant
 c = np.identity(3)
 print(np.linalg.det(c))
+
