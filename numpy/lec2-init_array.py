@@ -1,15 +1,15 @@
 import numpy as np
 
 # all 0s matrix
-a = np.zeros(5)
+a = np.zeros(5) #1x5 matrix
 print(a,"\n")
 
 #more complex shape- add a () with every increase in dimension
-a = np.zeros((5,5))
+a = np.zeros((5,5)) #5x5
 print(a)
 
 # all one's
-a = np.ones((4,2,2))
+a = np.ones((4,2,2), "\n")
 print(a)
 
 #any other number np.full( (size), value, dtype )
@@ -18,7 +18,7 @@ print(a)
 
 # full like - take a shape that is already built
 a = np.full_like(a , 4)
-print(a)
+print("full like \n", a)
 
 # initialise a matrix number
 

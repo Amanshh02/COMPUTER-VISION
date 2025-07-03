@@ -25,6 +25,6 @@ print("Data type is : ", a.dtype)
 print(" Size of one item is : ", a.itemsize)
 
 # get total size
-print(b.size)
-print(a.nbytes)
+print("Size (no. of elements) : ", b.size)
+print("Size in bytes : ", a.nbytes)
 
