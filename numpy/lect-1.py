@@ -9,7 +9,7 @@ a = np.array([1,2,3], dtype='int16')
 print(a)
 
 # 2d
-b= np.array([[1,2,3,4,5], [6,7,8,9,0]])
+b= np.array([[1,2,3], [4,5,6]], dtype='int16')
 print(b)
 
 # get dimension
@@ -22,9 +22,9 @@ print("Shape is (matrix shape) : ", b.shape) #shape of matrix
 print("Data type is : ", a.dtype)
 
 # get size
-print(" Size of one item is : ", a.itemsize)
+print("Size of one item is : ", b.itemsize)
 
 # get total size
-print("Size (no. of elements) : ", b.size)
-print("Size in bytes : ", a.nbytes)
+print("Size (no. of elements in b) : ", b.size)
+print("Size in bytes for b: ", b.nbytes)
 
